@@ -2,8 +2,11 @@
   <library name="Gradle: ai.api:libai:1.1.0">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/ai/api/libai/1.1.0/libai-1.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.api/libai/1.1.0/52d5bb2ffa783e4a7a5a7e1268ca43f5c028e496/libai-1.1.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.api/libai/1.1.0/3a5eec6d94fec6ebb5f7766e74006aa15f61237/libai-1.1.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

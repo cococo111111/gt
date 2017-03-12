@@ -1,10 +1,15 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : capstone : web-service-1.0-SNAPSHOT.war (exploded)">
-    <output-path>$PROJECT_DIR$/classes/artifacts/web-service/exploded/web-service-1.0-SNAPSHOT.war</output-path>
+    <output-path>$PROJECT_DIR$/web-service/build/libs/exploded/web-service-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$" />
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
     </properties>
     <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web-service/build/libs/exploded/web-service-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
       <element id="javaee-facet-resources" facet="web-service_main/web/Web Gradle : web-service-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -108,7 +113,6 @@
           <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.6" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:4.3.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.2.RELEASE" />
-          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Gradle: javax.servlet.jsp:jsp-api:2.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.2.RELEASE" />
           <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.3" />
@@ -120,68 +124,33 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.3.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
-          <element id="library" level="project" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
           <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
-          <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Gradle: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" />
           <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.0.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.0" />
-          <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
           <element id="library" level="project" name="Gradle: javax.enterprise:cdi-api:1.1-PFD" />
-          <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.3" />
           <element id="library" level="project" name="Gradle: javax.el:el-api:2.2" />
           <element id="library" level="project" name="Gradle: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" />
           <element id="library" level="project" name="Gradle: javax.annotation:jsr250-api:1.0" />
-          <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
-          <element id="archive" name="capstone-storage-service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="storage-service_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/storage-service/build/resources/main" />
-          </element>
-          <element id="library" level="project" name="Gradle: javax.xml.crypto:jsr105-api:1.0.1" />
           <element id="archive" name="capstone-cache-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="cache-service_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/cache-service/build/resources/main" />
           </element>
           <element id="library" level="project" name="Gradle: redis.clients:jedis:2.9.0" />
           <element id="library" level="project" name="Gradle: org.apache.commons:commons-pool2:2.4.2" />
-          <element id="archive" name="capstone-notification-service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="notification-service_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/notification-service/build/resources/main" />
-          </element>
-          <element id="archive" name="capstone-chatbot-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="chatbot_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/chatbot/build/resources/main" />
-          </element>
-          <element id="archive" name="capstone-nlp-service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="nlp-service_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/nlp-service/build/resources/main" />
-          </element>
-          <element id="library" level="project" name="Gradle: ai.api:libai:1.1.0" />
-          <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.3.1" />
-          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.2" />
-          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.2" />
-          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.2" />
-          <element id="archive" name="capstone-vision-service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="vision-service_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/vision-service/build/resources/main" />
-          </element>
-          <element id="library" level="project" name="Gradle: com.google.apis:google-api-services-vision:v1-rev26-1.22.0" />
-          <element id="library" level="project" name="Gradle: com.google.api-client:google-api-client:1.22.0" />
-          <element id="library" level="project" name="Gradle: com.google.oauth-client:google-oauth-client:1.22.0" />
-          <element id="library" level="project" name="Gradle: com.google.http-client:google-http-client-jackson2:1.22.0" />
-          <element id="library" level="project" name="Gradle: com.google.guava:guava-jdk5:17.0" />
-          <element id="library" level="project" name="Gradle: com.google.http-client:google-http-client:1.22.0" />
-          <element id="library" level="project" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" />
-          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.4" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.1" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.1" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.2/112366d8158749e25532ebce162232c6e0fb20a5/gson-1.7.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/classes/artifacts/web-service/exploded/web-service-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>

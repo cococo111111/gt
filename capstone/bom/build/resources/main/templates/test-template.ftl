@@ -1,2 +1,0 @@
-Dear ${firstName} ${lastName}
-Thanks

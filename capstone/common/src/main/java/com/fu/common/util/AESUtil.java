@@ -132,5 +132,7 @@ public class AESUtil {
         System.out.println(encryptByAES_USER);
         System.out.println(encryptByAES_PASSWORD);
 
+        System.out.println(encryptByAES("EAAOWuQMhG3EBAF7lpy41uvhzGDCKWuRQHD3bRfuW786sJ5dYZCnE54gtR17pHZBQ1rvaZAUD7zslihiMM4gfFU3xeZCFNfNi8NZBMEdKP5R2SrZCjcQf0KZA7YvHhDzqHUCRq10TV5cFigfiFvBZCjIsUiXDp2zo41nbMOXsWoBzOwZDZD",key));
+
     }
 }
