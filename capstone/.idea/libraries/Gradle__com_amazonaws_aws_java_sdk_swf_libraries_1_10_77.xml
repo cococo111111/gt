@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-swf-libraries:1.10.77">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-swf-libraries/1.10.77/b70365f5fe68237a3311eda9b113cbd2a15e9b13/aws-java-sdk-swf-libraries-1.10.77.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-swf-libraries/1.10.77/31883e36619c39d5695f7b31168494fb7039e405/aws-java-sdk-swf-libraries-1.10.77-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

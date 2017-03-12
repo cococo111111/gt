@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <definition name="home" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
+    </definition>
+
+    <definition name="viewAccount" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/account/viewAccount.jsp"/>
+    </definition>
+
+    <definition name="editAccount" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/account/editAccount.jsp"/>
+    </definition>
+
+    <definition name="addAccount" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/account/addAccount.jsp"/>
+    </definition>
+
+    <definition name="viewProduct" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/product/viewProduct.jsp"/>
+    </definition>
+
+    <definition name="updateProduct" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/product/updateProduct.jsp"/>
+    </definition>
+
+    <definition name="insertProduct" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/product/insertProduct.jsp"/>
+    </definition>
+
+    <definition name="viewBeacon" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/beacon/viewBeacon.jsp"/>
+    </definition>
+
+    <definition name="detailProduct" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/product/detailProduct.jsp"/>
+    </definition>
+
+    <definition name="importData" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/product/importData.jsp"/>
+    </definition>
+
+    <definition name="viewPromotion" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/viewPromotion.jsp"/>
+    </definition>
+
+    <definition name="insertPromotion" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/insertPromotion.jsp"/>
+    </definition>
+
+    <definition name="insertItem" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/insertItem.jsp"/>
+    </definition>
+
+    <definition name="viewItem" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/viewItem.jsp"/>
+    </definition>
+
+    <definition name="updatePromotion" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/updatePromotion.jsp"/>
+    </definition>
+
+    <definition name="viewRelation" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/product/viewRelation.jsp"/>
+    </definition>
+
+    <definition name="viewArea" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/Area/viewArea.jsp"/>
+    </definition>
+
+    <definition name="viewFloor" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/floor/viewFloor.jsp"/>
+    </definition>
+
+    <definition name="insertFloor" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/floor/insertFloor.jsp"/>
+    </definition>
+
+    <definition name="updateFloor" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/floor/updateFloor.jsp"/>
+    </definition>
+
+    <definition name="viewCategory" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/category/viewCategory.jsp"/>
+    </definition>
+
+    <definition name="insertCategory" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/category/insertCategory.jsp"/>
+    </definition>
+
+    <definition name="updateCategory" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/category/updateCategory.jsp"/>
+    </definition>
+
+    <definition name="viewKeyOriginal" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/Synonym/viewKeyOriginal.jsp"/>
+    </definition>
+
+    <definition name="insertKeyOriginal" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/Synonym/insertKeyOriginal.jsp"/>
+    </definition>
+
+    <definition name="updateKeyOriginal" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/Synonym/updateKeyOriginal.jsp"/>
+    </definition>
+
+    <definition name="viewSynonym" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/Synonym/viewSynonym.jsp"/>
+    </definition>
+
+    <definition name="insertSynonym" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/Synonym/insertSynonym.jsp"/>
+    </definition>
+
+    <definition name="updateSynonym" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/Synonym/updateSynonym.jsp"/>
+    </definition>
+
+    <definition name="viewChatLog" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/chatlog/viewChatLog.jsp"/>
+    </definition>
+
+    <definition name="viewItemInCate" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/category/viewItemInCate.jsp"/>
+    </definition>
+</tiles-definitions>

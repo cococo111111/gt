@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/back" />
+            <option value="$PROJECT_DIR$/bom" />
+            <option value="$PROJECT_DIR$/cache-service" />
+            <option value="$PROJECT_DIR$/chatbot" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/database-service" />
+            <option value="$PROJECT_DIR$/mail-service" />
+            <option value="$PROJECT_DIR$/nlp-service" />
+            <option value="$PROJECT_DIR$/notification-service" />
+            <option value="$PROJECT_DIR$/queue-service" />
+            <option value="$PROJECT_DIR$/storage-service" />
+            <option value="$PROJECT_DIR$/vision-service" />
+            <option value="$PROJECT_DIR$/web-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

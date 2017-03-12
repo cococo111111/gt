@@ -1,0 +1,43 @@
+group 'capstone'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+def spring_version = '4.3.2.RELEASE'
+def quartz_version = '2.2.1'
+
+dependencies {
+    // database
+    compile project(':database-service')
+
+    // storage
+    compile project(':storage-service')
+
+    // cache
+    compile project(':cache-service')
+
+    // queue
+    compile project(':queue-service')
+
+    // nlp
+    compile project(':nlp-service')
+
+    // storage
+    compile project(':chatbot')
+
+    compile group: 'org.springframework', name: 'spring-context', version: spring_version
+
+    // Spring + Quartz need transaction
+    compile group: 'org.springframework', name: 'spring-tx', version: spring_version
+    compile group: 'org.quartz-scheduler', name: 'quartz', version: quartz_version
+}

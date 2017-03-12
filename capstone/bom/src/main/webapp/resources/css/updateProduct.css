@@ -1,0 +1,11 @@
+.chosen-choices{
+    min-height: 50px!important;
+
+}
+.search-choice{
+    background: #d5d0ff!important;
+}
+.chosen-container{
+    width: 100%!important;
+    padding-top: 10px;
+}

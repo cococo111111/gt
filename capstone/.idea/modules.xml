@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back/back.iml" filepath="$PROJECT_DIR$/.idea/modules/back/back.iml" group="back" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back/back_main.iml" filepath="$PROJECT_DIR$/.idea/modules/back/back_main.iml" group="back" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/back/back_test.iml" filepath="$PROJECT_DIR$/.idea/modules/back/back_test.iml" group="back" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bom/bom.iml" filepath="$PROJECT_DIR$/.idea/modules/bom/bom.iml" group="bom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bom/bom_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bom/bom_main.iml" group="bom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bom/bom_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bom/bom_test.iml" group="bom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache-service/cache-service.iml" filepath="$PROJECT_DIR$/.idea/modules/cache-service/cache-service.iml" group="cache-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache-service/cache-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cache-service/cache-service_main.iml" group="cache-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache-service/cache-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cache-service/cache-service_test.iml" group="cache-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/capstone.iml" filepath="$PROJECT_DIR$/.idea/modules/capstone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatbot/chatbot.iml" filepath="$PROJECT_DIR$/.idea/modules/chatbot/chatbot.iml" group="chatbot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatbot/chatbot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/chatbot/chatbot_main.iml" group="chatbot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatbot/chatbot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/chatbot/chatbot_test.iml" group="chatbot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database-service/database-service.iml" filepath="$PROJECT_DIR$/.idea/modules/database-service/database-service.iml" group="database-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database-service/database-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/database-service/database-service_main.iml" group="database-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database-service/database-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/database-service/database-service_test.iml" group="database-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mail-service/mail-service.iml" filepath="$PROJECT_DIR$/.idea/modules/mail-service/mail-service.iml" group="mail-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mail-service/mail-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mail-service/mail-service_main.iml" group="mail-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mail-service/mail-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mail-service/mail-service_test.iml" group="mail-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nlp-service/nlp-service.iml" filepath="$PROJECT_DIR$/.idea/modules/nlp-service/nlp-service.iml" group="nlp-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nlp-service/nlp-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nlp-service/nlp-service_main.iml" group="nlp-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nlp-service/nlp-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nlp-service/nlp-service_test.iml" group="nlp-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification-service/notification-service.iml" filepath="$PROJECT_DIR$/.idea/modules/notification-service/notification-service.iml" group="notification-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification-service/notification-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification-service/notification-service_main.iml" group="notification-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification-service/notification-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/notification-service/notification-service_test.iml" group="notification-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/queue-service/queue-service.iml" filepath="$PROJECT_DIR$/.idea/modules/queue-service/queue-service.iml" group="queue-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/queue-service/queue-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/queue-service/queue-service_main.iml" group="queue-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/queue-service/queue-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/queue-service/queue-service_test.iml" group="queue-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storage-service/storage-service.iml" filepath="$PROJECT_DIR$/.idea/modules/storage-service/storage-service.iml" group="storage-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storage-service/storage-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/storage-service/storage-service_main.iml" group="storage-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storage-service/storage-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/storage-service/storage-service_test.iml" group="storage-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vision-service/vision-service.iml" filepath="$PROJECT_DIR$/.idea/modules/vision-service/vision-service.iml" group="vision-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vision-service/vision-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/vision-service/vision-service_main.iml" group="vision-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vision-service/vision-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/vision-service/vision-service_test.iml" group="vision-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-service/web-service.iml" filepath="$PROJECT_DIR$/.idea/modules/web-service/web-service.iml" group="web-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-service/web-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web-service/web-service_main.iml" group="web-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-service/web-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web-service/web-service_test.iml" group="web-service" />
+    </modules>
+  </component>
+</project>

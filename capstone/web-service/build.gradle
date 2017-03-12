@@ -1,0 +1,30 @@
+group 'capstone'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+def jackson_version = '2.8.1'
+def gson_version = '1.7.2'
+
+dependencies {
+    // database
+    compile project(':database-service')
+
+    // cache
+    compile project(':cache-service')
+
+    compile group: 'com.google.code.gson', name: 'gson', version: gson_version
+
+    // auto convert to json
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jackson_version
+}

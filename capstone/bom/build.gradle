@@ -1,0 +1,66 @@
+group 'capstone'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+def spring_security_version = '4.1.1.RELEASE'
+def jstl_version = '1.2'
+def spring_tiles_version = '3.0.5'
+def spring_tiles_api_version = '1.0.6'
+def spring_file_upload_version='1.3.1'
+def spring_io__version='2.4'
+def poi__version='3.9'
+dependencies {
+    // database
+    compile project(':database-service')
+
+    // storage
+    compile project(':storage-service')
+
+    // cache
+    compile project(':cache-service')
+
+    // mail
+    compile project(':mail-service')
+
+    // nlp-service
+    compile project(':nlp-service')
+
+    // jstl
+    compile group: 'jstl', name: 'jstl', version: jstl_version
+
+    // spring security
+    compile group: 'org.springframework.security', name: 'spring-security-core', version: spring_security_version
+    compile group: 'org.springframework.security', name: 'spring-security-web', version: spring_security_version
+    compile group: 'org.springframework.security', name: 'spring-security-config', version: spring_security_version
+    compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: spring_security_version
+
+    // spring tiles
+    compile group: 'org.apache.tiles', name: 'tiles-core', version: spring_tiles_version
+    compile group: 'org.apache.tiles', name: 'tiles-jsp', version: spring_tiles_version
+    compile group: 'org.apache.tiles', name: 'tiles-api', version: spring_tiles_version
+    compile group: 'org.apache.tiles', name: 'tiles-servlet', version: spring_tiles_version
+    compile group: 'org.apache.tiles', name: 'tiles-template', version: spring_tiles_version
+    compile group: 'org.apache.tiles', name: 'tiles-request-api', version: spring_tiles_api_version
+    // https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload
+    compile group: 'commons-fileupload', name: 'commons-fileupload', version: spring_file_upload_version
+    compile group: 'commons-io', name: 'commons-io', version: spring_io__version
+
+    // https://mvnrepository.com/artifact/org.apache.poi/poi
+    compile group: 'org.apache.poi', name: 'poi', version: poi__version
+
+}
+
+war {
+    webXml = file('src/main/webapp/WEB-INF/web.xml') // copies a file to WEB-INF/web.xml
+}

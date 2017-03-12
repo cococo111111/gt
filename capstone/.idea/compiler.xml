@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="back_main" target="1.8" />
+      <module name="back_test" target="1.8" />
+      <module name="bom_main" target="1.8" />
+      <module name="bom_test" target="1.8" />
+      <module name="cache-service_main" target="1.8" />
+      <module name="cache-service_test" target="1.8" />
+      <module name="chatbot_main" target="1.8" />
+      <module name="chatbot_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="database-service_main" target="1.8" />
+      <module name="database-service_test" target="1.8" />
+      <module name="mail-service_main" target="1.8" />
+      <module name="mail-service_test" target="1.8" />
+      <module name="nlp-service_main" target="1.8" />
+      <module name="nlp-service_test" target="1.8" />
+      <module name="notification-service_main" target="1.8" />
+      <module name="notification-service_test" target="1.8" />
+      <module name="queue-service_main" target="1.8" />
+      <module name="queue-service_test" target="1.8" />
+      <module name="storage-service_main" target="1.8" />
+      <module name="storage-service_test" target="1.8" />
+      <module name="vision-service_main" target="1.8" />
+      <module name="vision-service_test" target="1.8" />
+      <module name="web-service_main" target="1.8" />
+      <module name="web-service_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
